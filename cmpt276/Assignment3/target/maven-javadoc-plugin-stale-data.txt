@@ -1,0 +1,48 @@
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'1.8'
+-sourcepath
+'/Users/jaylee/Desktop/CMPT276/assignment/276Assignments/Assignment3/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/jaylee/Desktop/CMPT276/assignment/276Assignments/Assignment3/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'assignment3 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/Users/jaylee/Desktop/CMPT276/assignment/276Assignments/Assignment3/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'assignment3 1.0-SNAPSHOT API'
+com.jeaohlee.assignment3
+/Users/jaylee/Desktop/CMPT276/assignment/276Assignments/Assignment3/src/main/java = 1711932613000
+/Users/jaylee/Desktop/CMPT276/assignment/276Assignments/Assignment3/target/site/apidocs/tag-search-index.js = 1711932632404
+/Users/jaylee/Desktop/CMPT276/assignment/276Assignments/Assignment3/target/site/apidocs/overview-tree.html = 1711932632397
+/Users/jaylee/Desktop/CMPT276/assignment/276Assignments/Assignment3/target/site/apidocs/module-search-index.js = 1711932632403
+/Users/jaylee/Desktop/CMPT276/assignment/276Assignments/Assignment3/target/site/apidocs/index.html = 1711932632410
+/Users/jaylee/Desktop/CMPT276/assignment/276Assignments/Assignment3/target/site/apidocs/package-search-index.js = 1711932632404
+/Users/jaylee/Desktop/CMPT276/assignment/276Assignments/Assignment3/target/site/apidocs/link.svg = 1711932632416
+/Users/jaylee/Desktop/CMPT276/assignment/276Assignments/Assignment3/target/site/apidocs/index-all.html = 1711932632407
+/Users/jaylee/Desktop/CMPT276/assignment/276Assignments/Assignment3/target/site/apidocs/allpackages-index.html = 1711932632403
+/Users/jaylee/Desktop/CMPT276/assignment/276Assignments/Assignment3/target/site/apidocs/member-search-index.js = 1711932632404
+/Users/jaylee/Desktop/CMPT276/assignment/276Assignments/Assignment3/target/site/apidocs/copy.svg = 1711932632415
+/Users/jaylee/Desktop/CMPT276/assignment/276Assignments/Assignment3/target/site/apidocs/script.js = 1711932632415
+/Users/jaylee/Desktop/CMPT276/assignment/276Assignments/Assignment3/target/site/apidocs/stylesheet.css = 1711932632415
+/Users/jaylee/Desktop/CMPT276/assignment/276Assignments/Assignment3/target/site/apidocs/search-page.js = 1711932632420
+/Users/jaylee/Desktop/CMPT276/assignment/276Assignments/Assignment3/target/site/apidocs/help-doc.html = 1711932632414
+/Users/jaylee/Desktop/CMPT276/assignment/276Assignments/Assignment3/target/site/apidocs/javadoc.sh = 1711932622342
+/Users/jaylee/Desktop/CMPT276/assignment/276Assignments/Assignment3/target/site/apidocs/element-list = 1711932632380
+/Users/jaylee/Desktop/CMPT276/assignment/276Assignments/Assignment3/target/site/apidocs/search.html = 1711932632410
+/Users/jaylee/Desktop/CMPT276/assignment/276Assignments/Assignment3/target/site/apidocs/allclasses-index.html = 1711932632402
+/Users/jaylee/Desktop/CMPT276/assignment/276Assignments/Assignment3/target/site/apidocs/type-search-index.js = 1711932632404
+/Users/jaylee/Desktop/CMPT276/assignment/276Assignments/Assignment3/target/site/apidocs/search.js = 1711932632419

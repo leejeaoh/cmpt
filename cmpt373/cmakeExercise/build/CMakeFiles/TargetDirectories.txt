@@ -1,0 +1,3 @@
+/Users/jeaohlee/Desktop/CMPT373/cmakeExercise/build/CMakeFiles/sorting.dir
+/Users/jeaohlee/Desktop/CMPT373/cmakeExercise/build/CMakeFiles/edit_cache.dir
+/Users/jeaohlee/Desktop/CMPT373/cmakeExercise/build/CMakeFiles/rebuild_cache.dir

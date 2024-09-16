@@ -1,0 +1,18 @@
+Name : Saba Alimadadi Jani
+Email : saba@sfu.ca
+employeeID :111111
+
+Name : Steve Ko
+Email : steveko@sfu.ca
+employeeID :1313131
+
+Name : Jake
+Email : jake@sfu.ca
+Student ID :12345
+GPA : 4.0
+
+Name : Jay
+Email : jeaohl@sfu.ca
+Student ID :301351043
+GPA : 4.33
+

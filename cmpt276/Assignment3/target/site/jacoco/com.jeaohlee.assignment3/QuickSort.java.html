@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>QuickSort.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">assignment3</a> &gt; <a href="index.source.html" class="el_package">com.jeaohlee.assignment3</a> &gt; <span class="el_source">QuickSort.java</span></div><h1>QuickSort.java</h1><pre class="source lang-java linenums">package com.jeaohlee.assignment3;
+
+/**
+ * 
+ * Implementation of the quick sorting algorithm for sorting an array of the elements with comparable interface.
+ * 
+ * @param &lt;T&gt; type of element that is being sorted and it must extend the comparable interface to ensure that elements can be compared.
+ */
+
+<span class="fc" id="L10">public class QuickSort&lt;T extends Comparable&lt;T&gt;&gt; implements Sorter&lt;T&gt; {</span>
+    /**
+     * partition the array into two different parts based on the pivot element. 
+     * Element(s) that is less or equal to pivot should be moved to left.
+     * Element(s) that is greater than pivot should be moved to right.
+     * 
+     * @param arr Array of elements to be partitioned.
+     * @param begin starting index of the array that is going to be partitioned.
+     * @param end end index of the array that is going to be partitioned.
+     * @return the partition index where the pivot element is going to be placed.
+     * 
+	 */
+
+    private int partition(T arr[], int begin, int end) {
+<span class="fc" id="L24">        T pivot = arr[end];</span>
+<span class="fc" id="L25">        int i = (begin - 1);</span>
+
+<span class="fc bfc" id="L27" title="All 2 branches covered.">        for (int j = begin; j &lt; end; j++) {</span>
+<span class="fc bfc" id="L28" title="All 2 branches covered.">            if (arr[j].compareTo(pivot) &lt;= 0) {</span>
+<span class="fc" id="L29">                i++;</span>
+
+<span class="fc" id="L31">                T swapTemp = arr[i];</span>
+<span class="fc" id="L32">                arr[i] = arr[j];</span>
+<span class="fc" id="L33">                arr[j] = swapTemp;</span>
+            }
+        }
+
+<span class="fc" id="L37">        T swapTemp = arr[i + 1];</span>
+<span class="fc" id="L38">        arr[i + 1] = arr[end];</span>
+<span class="fc" id="L39">        arr[end] = swapTemp;</span>
+
+<span class="fc" id="L41">        return i + 1;</span>
+    }
+
+    /**
+     * Recursive method that implements the quicksort algorithm to sort 
+     * 
+     * @param arr Array of elements to be sorted using quick sort algoritm
+     * @param begin The starting index of the array
+     * @param end The ending index of the array
+     */
+
+    private void quickSort(T arr[], int begin, int end) {
+<span class="fc bfc" id="L53" title="All 2 branches covered.">        if (begin &lt; end) {</span>
+<span class="fc" id="L54">            int partitionIndex = partition(arr, begin, end);</span>
+
+<span class="fc" id="L56">            quickSort(arr, begin, partitionIndex - 1);</span>
+<span class="fc" id="L57">            quickSort(arr, partitionIndex + 1, end);</span>
+        }
+<span class="fc" id="L59">    }</span>
+
+    /**
+     * sorts the array that is passed using the quick sort algorithm. It is public interface of the quicksort class
+     * and is intended to be called by users that wants to sort the array.
+     * 
+     * @param list Array of elements that needs to be sorted. The elements must be instance of class that implements 
+     * the comparabl interface.
+     */
+
+    @Override
+    public void sort(T[] list) {
+<span class="pc bpc" id="L71" title="1 of 4 branches missed.">        if (list != null &amp;&amp; list.length &gt; 0) {</span>
+<span class="fc" id="L72">            quickSort(list, 0, list.length - 1);</span>
+        }
+<span class="fc" id="L74">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>
