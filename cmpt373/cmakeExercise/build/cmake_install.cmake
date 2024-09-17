@@ -1,8 +1,8 @@
-# Install script for directory: /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise
+# Install script for directory: /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/Users/jeaohlee/testing")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,22 +39,26 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/lib/sortIntegers/cmake_install.cmake")
+  include("/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/lib/sortIntegers/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/tools/fibSorter/cmake_install.cmake")
+  include("/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/tools/fibSorter/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/tools/cursesExample/cmake_install.cmake")
+  include("/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/tools/cursesExample/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/tools/sosier/cmake_install.cmake")
+  include("/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/tools/sosier/cmake_install.cmake")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/sorting" TYPE FILE FILES "/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/README.md")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -72,6 +76,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

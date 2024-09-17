@@ -4,4 +4,4 @@
 
 command (connected)=/opt/homebrew/Cellar/cmake/3.30.3/bin/cmake;-Dcan_fetch=YES;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/tmp/sos-populate-gitupdate.cmake
 command (disconnected)=/opt/homebrew/Cellar/cmake/3.30.3/bin/cmake;-Dcan_fetch=NO;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/tmp/sos-populate-gitupdate.cmake
-work_dir=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-src
+work_dir=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-src

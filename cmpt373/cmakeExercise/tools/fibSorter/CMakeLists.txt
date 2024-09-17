@@ -1,5 +1,10 @@
-#target executable 
+cmake_minimum_required(VERSION 3.28)
+project(fibSorter)
+
 add_executable(fibSorter main.cpp)
 
-#linking the executable with the sortIntegers lib
 target_link_libraries(fibSorter PRIVATE sortIntegers)
+
+install(TARGETS fibSorter
+    DESTINATION bin
+)

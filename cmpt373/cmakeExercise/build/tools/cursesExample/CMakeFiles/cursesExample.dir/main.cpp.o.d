@@ -1,5 +1,5 @@
 tools/cursesExample/CMakeFiles/cursesExample.dir/main.cpp.o: \
-  /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/tools/cursesExample/main.cpp \
+  /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/tools/cursesExample/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/ncurses.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/ncurses_dll.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/stdint.h \

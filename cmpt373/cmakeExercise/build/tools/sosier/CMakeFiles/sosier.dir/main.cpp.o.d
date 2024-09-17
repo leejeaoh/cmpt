@@ -1,6 +1,6 @@
 tools/sosier/CMakeFiles/sosier.dir/main.cpp.o: \
-  /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/tools/sosier/main.cpp \
-  /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-src/include/sos.h \
+  /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/tools/sosier/main.cpp \
+  /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-src/include/sos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config \

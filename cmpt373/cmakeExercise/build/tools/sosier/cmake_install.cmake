@@ -1,8 +1,8 @@
-# Install script for directory: /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/tools/sosier
+# Install script for directory: /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/tools/sosier
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/Users/jeaohlee/testing")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,6 +39,20 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-build/cmake_install.cmake")
+  include("/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-build/cmake_install.cmake")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/bin/sosier")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/sosier" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/sosier")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" -u -r "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/sosier")
+    endif()
+  endif()
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  include("/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/tools/sosier/CMakeFiles/sosier.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
 endif()
 

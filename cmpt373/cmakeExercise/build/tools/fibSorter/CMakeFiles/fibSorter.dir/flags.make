@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/lib/sortIntegers/include
+CXX_INCLUDES = -I/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/lib/sortIntegers/include
 
 CXX_FLAGSarm64 = -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
 

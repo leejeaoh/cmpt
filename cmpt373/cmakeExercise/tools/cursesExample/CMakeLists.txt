@@ -11,3 +11,7 @@ find_package(Curses REQUIRED)
 target_link_libraries(cursesExample PRIVATE ${CURSES_LIBRARIES})
 
 target_include_directories(cursesExample PRIVATE ${CURSES_INCLUDE_DIRS})
+
+install(TARGETS cursesExample
+    DESTINATION bin
+)

@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(sos-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/nsumner/example-dependency.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "v0.2"
-                    SOURCE_DIR          "/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-src"
-                    BINARY_DIR          "/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-build"
+                    SOURCE_DIR          "/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-src"
+                    BINARY_DIR          "/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

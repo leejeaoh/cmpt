@@ -10,3 +10,7 @@ CPMAddPackage(
 add_executable(sosier main.cpp)
 
 target_link_libraries(sosier PRIVATE sekrit-sos)
+
+install(TARGETS sosier
+    DESTINATION bin
+)

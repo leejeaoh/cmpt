@@ -4,8 +4,8 @@
 
 method=git
 command=/opt/homebrew/Cellar/cmake/3.30.3/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/tmp/sos-populate-gitclone.cmake
-source_dir=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-src
-work_dir=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps
+source_dir=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-src
+work_dir=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps
 repository=https://github.com/nsumner/example-dependency.git
 remote=origin
 init_submodules=TRUE

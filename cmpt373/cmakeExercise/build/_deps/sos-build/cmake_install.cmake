@@ -1,8 +1,8 @@
-# Install script for directory: /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-src
+# Install script for directory: /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/Users/jeaohlee/testing")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

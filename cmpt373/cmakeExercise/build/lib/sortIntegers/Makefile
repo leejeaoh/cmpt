@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise
+CMAKE_SOURCE_DIR = /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build
+CMAKE_BINARY_DIR = /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -85,16 +85,61 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	/opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	/opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	/opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	/opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	/opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	/opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # The main all target
 all: cmake_check_build_system
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/CMakeFiles /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/lib/sortIntegers//CMakeFiles/progress.marks
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sortIntegers/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/CMakeFiles 0
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/CMakeFiles /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/lib/sortIntegers//CMakeFiles/progress.marks
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sortIntegers/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sortIntegers/clean
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sortIntegers/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sortIntegers/preinstall
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sortIntegers/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sortIntegers/preinstall
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sortIntegers/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/sortIntegers/CMakeFiles/sortIntegers.dir/rule:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sortIntegers/CMakeFiles/sortIntegers.dir/rule
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sortIntegers/CMakeFiles/sortIntegers.dir/rule
 .PHONY : lib/sortIntegers/CMakeFiles/sortIntegers.dir/rule
 
 # Convenience name for target.
@@ -127,7 +172,7 @@ sortIntegers: lib/sortIntegers/CMakeFiles/sortIntegers.dir/rule
 
 # fast build rule for target.
 sortIntegers/fast:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build && $(MAKE) $(MAKESILENT) -f lib/sortIntegers/CMakeFiles/sortIntegers.dir/build.make lib/sortIntegers/CMakeFiles/sortIntegers.dir/build
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f lib/sortIntegers/CMakeFiles/sortIntegers.dir/build.make lib/sortIntegers/CMakeFiles/sortIntegers.dir/build
 .PHONY : sortIntegers/fast
 
 SortIntegers.o: SortIntegers.cpp.o
@@ -135,7 +180,7 @@ SortIntegers.o: SortIntegers.cpp.o
 
 # target to build an object file
 SortIntegers.cpp.o:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build && $(MAKE) $(MAKESILENT) -f lib/sortIntegers/CMakeFiles/sortIntegers.dir/build.make lib/sortIntegers/CMakeFiles/sortIntegers.dir/SortIntegers.cpp.o
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f lib/sortIntegers/CMakeFiles/sortIntegers.dir/build.make lib/sortIntegers/CMakeFiles/sortIntegers.dir/SortIntegers.cpp.o
 .PHONY : SortIntegers.cpp.o
 
 SortIntegers.i: SortIntegers.cpp.i
@@ -143,7 +188,7 @@ SortIntegers.i: SortIntegers.cpp.i
 
 # target to preprocess a source file
 SortIntegers.cpp.i:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build && $(MAKE) $(MAKESILENT) -f lib/sortIntegers/CMakeFiles/sortIntegers.dir/build.make lib/sortIntegers/CMakeFiles/sortIntegers.dir/SortIntegers.cpp.i
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f lib/sortIntegers/CMakeFiles/sortIntegers.dir/build.make lib/sortIntegers/CMakeFiles/sortIntegers.dir/SortIntegers.cpp.i
 .PHONY : SortIntegers.cpp.i
 
 SortIntegers.s: SortIntegers.cpp.s
@@ -151,7 +196,7 @@ SortIntegers.s: SortIntegers.cpp.s
 
 # target to generate assembly for a file
 SortIntegers.cpp.s:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build && $(MAKE) $(MAKESILENT) -f lib/sortIntegers/CMakeFiles/sortIntegers.dir/build.make lib/sortIntegers/CMakeFiles/sortIntegers.dir/SortIntegers.cpp.s
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f lib/sortIntegers/CMakeFiles/sortIntegers.dir/build.make lib/sortIntegers/CMakeFiles/sortIntegers.dir/SortIntegers.cpp.s
 .PHONY : SortIntegers.cpp.s
 
 # Help Target
@@ -161,6 +206,10 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... install"
+	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... sortIntegers"
 	@echo "... SortIntegers.o"
@@ -177,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

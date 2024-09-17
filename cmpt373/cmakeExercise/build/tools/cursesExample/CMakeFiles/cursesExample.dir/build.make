@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise
+CMAKE_SOURCE_DIR = /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build
+CMAKE_BINARY_DIR = /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build
 
 # Include any dependencies generated for this target.
 include tools/cursesExample/CMakeFiles/cursesExample.dir/depend.make
@@ -70,18 +70,18 @@ include tools/cursesExample/CMakeFiles/cursesExample.dir/progress.make
 include tools/cursesExample/CMakeFiles/cursesExample.dir/flags.make
 
 tools/cursesExample/CMakeFiles/cursesExample.dir/main.cpp.o: tools/cursesExample/CMakeFiles/cursesExample.dir/flags.make
-tools/cursesExample/CMakeFiles/cursesExample.dir/main.cpp.o: /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/tools/cursesExample/main.cpp
+tools/cursesExample/CMakeFiles/cursesExample.dir/main.cpp.o: /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/tools/cursesExample/main.cpp
 tools/cursesExample/CMakeFiles/cursesExample.dir/main.cpp.o: tools/cursesExample/CMakeFiles/cursesExample.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/cursesExample/CMakeFiles/cursesExample.dir/main.cpp.o"
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/tools/cursesExample && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tools/cursesExample/CMakeFiles/cursesExample.dir/main.cpp.o -MF CMakeFiles/cursesExample.dir/main.cpp.o.d -o CMakeFiles/cursesExample.dir/main.cpp.o -c /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/tools/cursesExample/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/cursesExample/CMakeFiles/cursesExample.dir/main.cpp.o"
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/tools/cursesExample && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tools/cursesExample/CMakeFiles/cursesExample.dir/main.cpp.o -MF CMakeFiles/cursesExample.dir/main.cpp.o.d -o CMakeFiles/cursesExample.dir/main.cpp.o -c /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/tools/cursesExample/main.cpp
 
 tools/cursesExample/CMakeFiles/cursesExample.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cursesExample.dir/main.cpp.i"
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/tools/cursesExample && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/tools/cursesExample/main.cpp > CMakeFiles/cursesExample.dir/main.cpp.i
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/tools/cursesExample && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/tools/cursesExample/main.cpp > CMakeFiles/cursesExample.dir/main.cpp.i
 
 tools/cursesExample/CMakeFiles/cursesExample.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cursesExample.dir/main.cpp.s"
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/tools/cursesExample && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/tools/cursesExample/main.cpp -o CMakeFiles/cursesExample.dir/main.cpp.s
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/tools/cursesExample && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/tools/cursesExample/main.cpp -o CMakeFiles/cursesExample.dir/main.cpp.s
 
 # Object files for target cursesExample
 cursesExample_OBJECTS = \
@@ -95,18 +95,18 @@ bin/cursesExample: tools/cursesExample/CMakeFiles/cursesExample.dir/build.make
 bin/cursesExample: /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/libcurses.tbd
 bin/cursesExample: /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/libform.tbd
 bin/cursesExample: tools/cursesExample/CMakeFiles/cursesExample.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/cursesExample"
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/tools/cursesExample && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cursesExample.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/cursesExample"
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/tools/cursesExample && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cursesExample.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tools/cursesExample/CMakeFiles/cursesExample.dir/build: bin/cursesExample
 .PHONY : tools/cursesExample/CMakeFiles/cursesExample.dir/build
 
 tools/cursesExample/CMakeFiles/cursesExample.dir/clean:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/tools/cursesExample && $(CMAKE_COMMAND) -P CMakeFiles/cursesExample.dir/cmake_clean.cmake
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/tools/cursesExample && $(CMAKE_COMMAND) -P CMakeFiles/cursesExample.dir/cmake_clean.cmake
 .PHONY : tools/cursesExample/CMakeFiles/cursesExample.dir/clean
 
 tools/cursesExample/CMakeFiles/cursesExample.dir/depend:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/tools/cursesExample /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/tools/cursesExample /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/tools/cursesExample/CMakeFiles/cursesExample.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/tools/cursesExample /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/tools/cursesExample /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/tools/cursesExample/CMakeFiles/cursesExample.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : tools/cursesExample/CMakeFiles/cursesExample.dir/depend
 

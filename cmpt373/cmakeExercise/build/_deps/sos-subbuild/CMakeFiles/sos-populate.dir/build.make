@@ -87,25 +87,25 @@ sos-populate-prefix/src/sos-populate-stamp/sos-populate-update:
 
 sos-populate-prefix/src/sos-populate-stamp/sos-populate-build: sos-populate-prefix/src/sos-populate-stamp/sos-populate-configure
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'sos-populate'"
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-build && /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E echo_append
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-build && /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E touch /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/src/sos-populate-stamp/sos-populate-build
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-build && /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E echo_append
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-build && /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E touch /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/src/sos-populate-stamp/sos-populate-build
 
 sos-populate-prefix/src/sos-populate-stamp/sos-populate-configure: sos-populate-prefix/tmp/sos-populate-cfgcmd.txt
 sos-populate-prefix/src/sos-populate-stamp/sos-populate-configure: sos-populate-prefix/src/sos-populate-stamp/sos-populate-patch
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'sos-populate'"
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-build && /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E echo_append
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-build && /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E touch /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/src/sos-populate-stamp/sos-populate-configure
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-build && /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E echo_append
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-build && /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E touch /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/src/sos-populate-stamp/sos-populate-configure
 
 sos-populate-prefix/src/sos-populate-stamp/sos-populate-download: sos-populate-prefix/src/sos-populate-stamp/sos-populate-gitinfo.txt
 sos-populate-prefix/src/sos-populate-stamp/sos-populate-download: sos-populate-prefix/src/sos-populate-stamp/sos-populate-mkdir
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'sos-populate'"
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps && /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/tmp/sos-populate-gitclone.cmake
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps && /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E touch /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/src/sos-populate-stamp/sos-populate-download
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps && /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/tmp/sos-populate-gitclone.cmake
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps && /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E touch /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/src/sos-populate-stamp/sos-populate-download
 
 sos-populate-prefix/src/sos-populate-stamp/sos-populate-install: sos-populate-prefix/src/sos-populate-stamp/sos-populate-build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'sos-populate'"
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-build && /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E echo_append
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-build && /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E touch /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/src/sos-populate-stamp/sos-populate-install
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-build && /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E echo_append
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-build && /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E touch /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/src/sos-populate-stamp/sos-populate-install
 
 sos-populate-prefix/src/sos-populate-stamp/sos-populate-mkdir:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'sos-populate'"
@@ -123,14 +123,14 @@ sos-populate-prefix/src/sos-populate-stamp/sos-populate-update:
 
 sos-populate-prefix/src/sos-populate-stamp/sos-populate-test: sos-populate-prefix/src/sos-populate-stamp/sos-populate-install
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'sos-populate'"
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-build && /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E echo_append
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-build && /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E touch /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/src/sos-populate-stamp/sos-populate-test
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-build && /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E echo_append
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-build && /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E touch /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/src/sos-populate-stamp/sos-populate-test
 
 sos-populate-prefix/src/sos-populate-stamp/sos-populate-update: sos-populate-prefix/tmp/sos-populate-gitupdate.cmake
 sos-populate-prefix/src/sos-populate-stamp/sos-populate-update: sos-populate-prefix/src/sos-populate-stamp/sos-populate-update-info.txt
 sos-populate-prefix/src/sos-populate-stamp/sos-populate-update: sos-populate-prefix/src/sos-populate-stamp/sos-populate-download
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'sos-populate'"
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-src && /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/tmp/sos-populate-gitupdate.cmake
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-src && /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/tmp/sos-populate-gitupdate.cmake
 
 sos-populate: CMakeFiles/sos-populate
 sos-populate: CMakeFiles/sos-populate-complete

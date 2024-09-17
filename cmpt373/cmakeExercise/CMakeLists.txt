@@ -16,3 +16,7 @@ add_subdirectory(lib/sortIntegers)
 add_subdirectory(tools/fibSorter)
 add_subdirectory(tools/cursesExample)
 add_subdirectory(tools/sosier)
+
+install(FILES README.md
+    DESTINATION share/doc/sorting
+)

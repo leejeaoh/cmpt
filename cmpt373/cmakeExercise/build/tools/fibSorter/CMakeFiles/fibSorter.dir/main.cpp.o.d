@@ -1,5 +1,5 @@
 tools/fibSorter/CMakeFiles/fibSorter.dir/main.cpp.o: \
-  /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/tools/fibSorter/main.cpp \
+  /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/tools/fibSorter/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config \
@@ -607,4 +607,4 @@ tools/fibSorter/CMakeFiles/fibSorter.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__split_buffer \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/move_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/move_sentinel.h \
-  /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/lib/sortIntegers/include/SortIntegers.h
+  /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/lib/sortIntegers/include/SortIntegers.h
