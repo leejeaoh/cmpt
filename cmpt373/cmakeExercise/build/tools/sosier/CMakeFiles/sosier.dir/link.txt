@@ -1,1 +1,1 @@
-/usr/bin/clang++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/sosier.dir/main.cpp.o -o ../../bin/sosier  ../../lib/libsekrit-sos.a
+/opt/homebrew/opt/llvm/bin/clang++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib CMakeFiles/sosier.dir/main.cpp.o -o ../../bin/sosier  ../../lib/libsekrit-sos.a

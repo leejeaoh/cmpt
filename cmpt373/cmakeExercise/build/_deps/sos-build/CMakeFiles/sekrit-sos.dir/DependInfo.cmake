@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-src/sekrit-sos.cpp" "_deps/sos-build/CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.o" "gcc" "_deps/sos-build/CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.o.d"
+  "/Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/_deps/sos-src/sekrit-sos.cpp" "_deps/sos-build/CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.o" "gcc" "_deps/sos-build/CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

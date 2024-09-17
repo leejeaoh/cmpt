@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise
+CMAKE_SOURCE_DIR = /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build
+CMAKE_BINARY_DIR = /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/CMakeFiles /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-build//CMakeFiles/progress.marks
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/sos-build/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/CMakeFiles 0
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/CMakeFiles /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/_deps/sos-build//CMakeFiles/progress.marks
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/sos-build/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/sos-build/clean
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/sos-build/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/sos-build/preinstall
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/sos-build/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/sos-build/preinstall
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/sos-build/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/sos-build/CMakeFiles/sekrit-sos.dir/rule:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/sos-build/CMakeFiles/sekrit-sos.dir/rule
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/sos-build/CMakeFiles/sekrit-sos.dir/rule
 .PHONY : _deps/sos-build/CMakeFiles/sekrit-sos.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ sekrit-sos: _deps/sos-build/CMakeFiles/sekrit-sos.dir/rule
 
 # fast build rule for target.
 sekrit-sos/fast:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f _deps/sos-build/CMakeFiles/sekrit-sos.dir/build.make _deps/sos-build/CMakeFiles/sekrit-sos.dir/build
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f _deps/sos-build/CMakeFiles/sekrit-sos.dir/build.make _deps/sos-build/CMakeFiles/sekrit-sos.dir/build
 .PHONY : sekrit-sos/fast
 
 sekrit-sos.o: sekrit-sos.cpp.o
@@ -180,7 +180,7 @@ sekrit-sos.o: sekrit-sos.cpp.o
 
 # target to build an object file
 sekrit-sos.cpp.o:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f _deps/sos-build/CMakeFiles/sekrit-sos.dir/build.make _deps/sos-build/CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.o
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f _deps/sos-build/CMakeFiles/sekrit-sos.dir/build.make _deps/sos-build/CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.o
 .PHONY : sekrit-sos.cpp.o
 
 sekrit-sos.i: sekrit-sos.cpp.i
@@ -188,7 +188,7 @@ sekrit-sos.i: sekrit-sos.cpp.i
 
 # target to preprocess a source file
 sekrit-sos.cpp.i:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f _deps/sos-build/CMakeFiles/sekrit-sos.dir/build.make _deps/sos-build/CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.i
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f _deps/sos-build/CMakeFiles/sekrit-sos.dir/build.make _deps/sos-build/CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.i
 .PHONY : sekrit-sos.cpp.i
 
 sekrit-sos.s: sekrit-sos.cpp.s
@@ -196,7 +196,7 @@ sekrit-sos.s: sekrit-sos.cpp.s
 
 # target to generate assembly for a file
 sekrit-sos.cpp.s:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f _deps/sos-build/CMakeFiles/sekrit-sos.dir/build.make _deps/sos-build/CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.s
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f _deps/sos-build/CMakeFiles/sekrit-sos.dir/build.make _deps/sos-build/CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.s
 .PHONY : sekrit-sos.cpp.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

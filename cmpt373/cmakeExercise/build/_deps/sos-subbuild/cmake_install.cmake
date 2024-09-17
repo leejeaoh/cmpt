@@ -1,4 +1,4 @@
-# Install script for directory: /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild
+# Install script for directory: /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeExercise/build/_deps/sos-subbuild
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -47,6 +47,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeExercise/build/_deps/sos-subbuild/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

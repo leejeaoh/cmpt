@@ -1,8 +1,8 @@
-# Install script for directory: /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/lib/sortIntegers
+# Install script for directory: /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/lib/sortIntegers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/jeaohlee/testing")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,22 +34,22 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/opt/homebrew/opt/llvm/bin/llvm-objdump")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/lib/libsortIntegers.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/lib/libsortIntegers.a")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsortIntegers.a" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsortIntegers.a")
-    execute_process(COMMAND "/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsortIntegers.a")
+    execute_process(COMMAND "/opt/homebrew/opt/llvm/bin/llvm-ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsortIntegers.a")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/lib/sortIntegers/CMakeFiles/sortIntegers.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+  include("/Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/lib/sortIntegers/CMakeFiles/sortIntegers.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/lib/sortIntegers/include/SortIntegers.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/lib/sortIntegers/include/SortIntegers.h")
 endif()
 

@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise
+CMAKE_SOURCE_DIR = /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build
+CMAKE_BINARY_DIR = /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build
 
 # Include any dependencies generated for this target.
 include _deps/sos-build/CMakeFiles/sekrit-sos.dir/depend.make
@@ -72,16 +72,16 @@ include _deps/sos-build/CMakeFiles/sekrit-sos.dir/flags.make
 _deps/sos-build/CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.o: _deps/sos-build/CMakeFiles/sekrit-sos.dir/flags.make
 _deps/sos-build/CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.o: _deps/sos-src/sekrit-sos.cpp
 _deps/sos-build/CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.o: _deps/sos-build/CMakeFiles/sekrit-sos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/sos-build/CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.o"
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-build && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/sos-build/CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.o -MF CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.o.d -o CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.o -c /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-src/sekrit-sos.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/sos-build/CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.o"
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/_deps/sos-build && /opt/homebrew/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/sos-build/CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.o -MF CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.o.d -o CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.o -c /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/_deps/sos-src/sekrit-sos.cpp
 
 _deps/sos-build/CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.i"
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-build && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-src/sekrit-sos.cpp > CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.i
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/_deps/sos-build && /opt/homebrew/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/_deps/sos-src/sekrit-sos.cpp > CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.i
 
 _deps/sos-build/CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.s"
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-build && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-src/sekrit-sos.cpp -o CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.s
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/_deps/sos-build && /opt/homebrew/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/_deps/sos-src/sekrit-sos.cpp -o CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.s
 
 # Object files for target sekrit-sos
 sekrit__sos_OBJECTS = \
@@ -93,19 +93,19 @@ sekrit__sos_EXTERNAL_OBJECTS =
 lib/libsekrit-sos.a: _deps/sos-build/CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.o
 lib/libsekrit-sos.a: _deps/sos-build/CMakeFiles/sekrit-sos.dir/build.make
 lib/libsekrit-sos.a: _deps/sos-build/CMakeFiles/sekrit-sos.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../lib/libsekrit-sos.a"
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-build && $(CMAKE_COMMAND) -P CMakeFiles/sekrit-sos.dir/cmake_clean_target.cmake
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sekrit-sos.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../lib/libsekrit-sos.a"
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/_deps/sos-build && $(CMAKE_COMMAND) -P CMakeFiles/sekrit-sos.dir/cmake_clean_target.cmake
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/_deps/sos-build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sekrit-sos.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 _deps/sos-build/CMakeFiles/sekrit-sos.dir/build: lib/libsekrit-sos.a
 .PHONY : _deps/sos-build/CMakeFiles/sekrit-sos.dir/build
 
 _deps/sos-build/CMakeFiles/sekrit-sos.dir/clean:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-build && $(CMAKE_COMMAND) -P CMakeFiles/sekrit-sos.dir/cmake_clean.cmake
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/_deps/sos-build && $(CMAKE_COMMAND) -P CMakeFiles/sekrit-sos.dir/cmake_clean.cmake
 .PHONY : _deps/sos-build/CMakeFiles/sekrit-sos.dir/clean
 
 _deps/sos-build/CMakeFiles/sekrit-sos.dir/depend:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-src /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-build /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-build/CMakeFiles/sekrit-sos.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/_deps/sos-src /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/_deps/sos-build /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/_deps/sos-build/CMakeFiles/sekrit-sos.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/sos-build/CMakeFiles/sekrit-sos.dir/depend
 

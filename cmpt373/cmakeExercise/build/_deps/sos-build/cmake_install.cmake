@@ -1,8 +1,8 @@
-# Install script for directory: /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/_deps/sos-src
+# Install script for directory: /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/_deps/sos-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/jeaohlee/testing")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,6 +34,6 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/opt/homebrew/opt/llvm/bin/llvm-objdump")
 endif()
 

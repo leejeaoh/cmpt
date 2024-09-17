@@ -2,37 +2,37 @@
 	"sources" : 
 	[
 		{
-			"file" : "/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/CMakeFiles/sos-populate"
+			"file" : "/Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeExercise/build/_deps/sos-subbuild/CMakeFiles/sos-populate"
 		},
 		{
-			"file" : "/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/CMakeFiles/sos-populate.rule"
+			"file" : "/Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeExercise/build/_deps/sos-subbuild/CMakeFiles/sos-populate.rule"
 		},
 		{
-			"file" : "/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/CMakeFiles/sos-populate-complete.rule"
+			"file" : "/Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeExercise/build/_deps/sos-subbuild/CMakeFiles/sos-populate-complete.rule"
 		},
 		{
-			"file" : "/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/src/sos-populate-stamp/sos-populate-build.rule"
+			"file" : "/Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/src/sos-populate-stamp/sos-populate-build.rule"
 		},
 		{
-			"file" : "/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/src/sos-populate-stamp/sos-populate-configure.rule"
+			"file" : "/Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/src/sos-populate-stamp/sos-populate-configure.rule"
 		},
 		{
-			"file" : "/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/src/sos-populate-stamp/sos-populate-download.rule"
+			"file" : "/Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/src/sos-populate-stamp/sos-populate-download.rule"
 		},
 		{
-			"file" : "/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/src/sos-populate-stamp/sos-populate-install.rule"
+			"file" : "/Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/src/sos-populate-stamp/sos-populate-install.rule"
 		},
 		{
-			"file" : "/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/src/sos-populate-stamp/sos-populate-mkdir.rule"
+			"file" : "/Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/src/sos-populate-stamp/sos-populate-mkdir.rule"
 		},
 		{
-			"file" : "/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/src/sos-populate-stamp/sos-populate-patch.rule"
+			"file" : "/Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/src/sos-populate-stamp/sos-populate-patch.rule"
 		},
 		{
-			"file" : "/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/src/sos-populate-stamp/sos-populate-test.rule"
+			"file" : "/Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/src/sos-populate-stamp/sos-populate-test.rule"
 		},
 		{
-			"file" : "/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/src/sos-populate-stamp/sos-populate-update.rule"
+			"file" : "/Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeExercise/build/_deps/sos-subbuild/sos-populate-prefix/src/sos-populate-stamp/sos-populate-update.rule"
 		}
 	],
 	"target" : 

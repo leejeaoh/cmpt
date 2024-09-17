@@ -1,2 +1,2 @@
 /usr/bin/ar qc ../libsortIntegers.a CMakeFiles/sortIntegers.dir/SortIntegers.cpp.o
-/usr/bin/ranlib ../libsortIntegers.a
+/opt/homebrew/opt/llvm/bin/llvm-ranlib ../libsortIntegers.a

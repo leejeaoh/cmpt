@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise
+CMAKE_SOURCE_DIR = /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build
+CMAKE_BINARY_DIR = /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/CMakeFiles /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/tools/fibSorter//CMakeFiles/progress.marks
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/fibSorter/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/CMakeFiles 0
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/CMakeFiles /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/tools/fibSorter//CMakeFiles/progress.marks
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/fibSorter/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/fibSorter/clean
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/fibSorter/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/fibSorter/preinstall
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/fibSorter/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/fibSorter/preinstall
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/fibSorter/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tools/fibSorter/CMakeFiles/fibSorter.dir/rule:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/fibSorter/CMakeFiles/fibSorter.dir/rule
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/fibSorter/CMakeFiles/fibSorter.dir/rule
 .PHONY : tools/fibSorter/CMakeFiles/fibSorter.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ fibSorter: tools/fibSorter/CMakeFiles/fibSorter.dir/rule
 
 # fast build rule for target.
 fibSorter/fast:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f tools/fibSorter/CMakeFiles/fibSorter.dir/build.make tools/fibSorter/CMakeFiles/fibSorter.dir/build
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f tools/fibSorter/CMakeFiles/fibSorter.dir/build.make tools/fibSorter/CMakeFiles/fibSorter.dir/build
 .PHONY : fibSorter/fast
 
 main.o: main.cpp.o
@@ -180,7 +180,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f tools/fibSorter/CMakeFiles/fibSorter.dir/build.make tools/fibSorter/CMakeFiles/fibSorter.dir/main.cpp.o
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f tools/fibSorter/CMakeFiles/fibSorter.dir/build.make tools/fibSorter/CMakeFiles/fibSorter.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -188,7 +188,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f tools/fibSorter/CMakeFiles/fibSorter.dir/build.make tools/fibSorter/CMakeFiles/fibSorter.dir/main.cpp.i
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f tools/fibSorter/CMakeFiles/fibSorter.dir/build.make tools/fibSorter/CMakeFiles/fibSorter.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -196,7 +196,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f tools/fibSorter/CMakeFiles/fibSorter.dir/build.make tools/fibSorter/CMakeFiles/fibSorter.dir/main.cpp.s
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build && $(MAKE) $(MAKESILENT) -f tools/fibSorter/CMakeFiles/fibSorter.dir/build.make tools/fibSorter/CMakeFiles/fibSorter.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

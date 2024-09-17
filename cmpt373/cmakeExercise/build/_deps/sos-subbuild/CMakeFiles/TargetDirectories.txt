@@ -1,3 +1,3 @@
-/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/CMakeFiles/sos-populate.dir
-/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/CMakeFiles/edit_cache.dir
-/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-subbuild/CMakeFiles/rebuild_cache.dir
+/Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeExercise/build/_deps/sos-subbuild/CMakeFiles/sos-populate.dir
+/Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeExercise/build/_deps/sos-subbuild/CMakeFiles/edit_cache.dir
+/Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeExercise/build/_deps/sos-subbuild/CMakeFiles/rebuild_cache.dir

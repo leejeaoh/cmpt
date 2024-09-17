@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise
+CMAKE_SOURCE_DIR = /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build
+CMAKE_BINARY_DIR = /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build
 
 # Include any dependencies generated for this target.
 include tools/sosier/CMakeFiles/sosier.dir/depend.make
@@ -70,18 +70,18 @@ include tools/sosier/CMakeFiles/sosier.dir/progress.make
 include tools/sosier/CMakeFiles/sosier.dir/flags.make
 
 tools/sosier/CMakeFiles/sosier.dir/main.cpp.o: tools/sosier/CMakeFiles/sosier.dir/flags.make
-tools/sosier/CMakeFiles/sosier.dir/main.cpp.o: /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/tools/sosier/main.cpp
+tools/sosier/CMakeFiles/sosier.dir/main.cpp.o: /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/tools/sosier/main.cpp
 tools/sosier/CMakeFiles/sosier.dir/main.cpp.o: tools/sosier/CMakeFiles/sosier.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/sosier/CMakeFiles/sosier.dir/main.cpp.o"
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/tools/sosier && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tools/sosier/CMakeFiles/sosier.dir/main.cpp.o -MF CMakeFiles/sosier.dir/main.cpp.o.d -o CMakeFiles/sosier.dir/main.cpp.o -c /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/tools/sosier/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/sosier/CMakeFiles/sosier.dir/main.cpp.o"
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/tools/sosier && /opt/homebrew/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tools/sosier/CMakeFiles/sosier.dir/main.cpp.o -MF CMakeFiles/sosier.dir/main.cpp.o.d -o CMakeFiles/sosier.dir/main.cpp.o -c /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/tools/sosier/main.cpp
 
 tools/sosier/CMakeFiles/sosier.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sosier.dir/main.cpp.i"
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/tools/sosier && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/tools/sosier/main.cpp > CMakeFiles/sosier.dir/main.cpp.i
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/tools/sosier && /opt/homebrew/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/tools/sosier/main.cpp > CMakeFiles/sosier.dir/main.cpp.i
 
 tools/sosier/CMakeFiles/sosier.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sosier.dir/main.cpp.s"
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/tools/sosier && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/tools/sosier/main.cpp -o CMakeFiles/sosier.dir/main.cpp.s
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/tools/sosier && /opt/homebrew/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/tools/sosier/main.cpp -o CMakeFiles/sosier.dir/main.cpp.s
 
 # Object files for target sosier
 sosier_OBJECTS = \
@@ -94,18 +94,18 @@ bin/sosier: tools/sosier/CMakeFiles/sosier.dir/main.cpp.o
 bin/sosier: tools/sosier/CMakeFiles/sosier.dir/build.make
 bin/sosier: lib/libsekrit-sos.a
 bin/sosier: tools/sosier/CMakeFiles/sosier.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/sosier"
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/tools/sosier && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sosier.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/sosier"
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/tools/sosier && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sosier.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tools/sosier/CMakeFiles/sosier.dir/build: bin/sosier
 .PHONY : tools/sosier/CMakeFiles/sosier.dir/build
 
 tools/sosier/CMakeFiles/sosier.dir/clean:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/tools/sosier && $(CMAKE_COMMAND) -P CMakeFiles/sosier.dir/cmake_clean.cmake
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/tools/sosier && $(CMAKE_COMMAND) -P CMakeFiles/sosier.dir/cmake_clean.cmake
 .PHONY : tools/sosier/CMakeFiles/sosier.dir/clean
 
 tools/sosier/CMakeFiles/sosier.dir/depend:
-	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/tools/sosier /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/tools/sosier /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeexercise/build/tools/sosier/CMakeFiles/sosier.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/tools/sosier /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/tools/sosier /Users/jeaohlee/Desktop/cmpt-coures/cmpt373/cmakeexercise/build/tools/sosier/CMakeFiles/sosier.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : tools/sosier/CMakeFiles/sosier.dir/depend
 
