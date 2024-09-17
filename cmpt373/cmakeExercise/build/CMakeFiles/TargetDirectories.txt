@@ -6,3 +6,6 @@
 /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/tools/fibSorter/CMakeFiles/fibSorter.dir
 /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/tools/fibSorter/CMakeFiles/edit_cache.dir
 /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/tools/fibSorter/CMakeFiles/rebuild_cache.dir
+/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/tools/cursesExample/CMakeFiles/cursesExample.dir
+/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/tools/cursesExample/CMakeFiles/edit_cache.dir
+/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/tools/cursesExample/CMakeFiles/rebuild_cache.dir

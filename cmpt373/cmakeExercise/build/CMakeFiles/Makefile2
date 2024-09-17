@@ -65,16 +65,19 @@ CMAKE_BINARY_DIR = /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build
 # The main recursive "all" target.
 all: lib/sortIntegers/all
 all: tools/fibSorter/all
+all: tools/cursesExample/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: lib/sortIntegers/preinstall
 preinstall: tools/fibSorter/preinstall
+preinstall: tools/cursesExample/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: lib/sortIntegers/clean
 clean: tools/fibSorter/clean
+clean: tools/cursesExample/clean
 .PHONY : clean
 
 #=============================================================================
@@ -91,6 +94,21 @@ lib/sortIntegers/preinstall:
 # Recursive "clean" directory target.
 lib/sortIntegers/clean: lib/sortIntegers/CMakeFiles/sortIntegers.dir/clean
 .PHONY : lib/sortIntegers/clean
+
+#=============================================================================
+# Directory level rules for directory tools/cursesExample
+
+# Recursive "all" directory target.
+tools/cursesExample/all: tools/cursesExample/CMakeFiles/cursesExample.dir/all
+.PHONY : tools/cursesExample/all
+
+# Recursive "preinstall" directory target.
+tools/cursesExample/preinstall:
+.PHONY : tools/cursesExample/preinstall
+
+# Recursive "clean" directory target.
+tools/cursesExample/clean: tools/cursesExample/CMakeFiles/cursesExample.dir/clean
+.PHONY : tools/cursesExample/clean
 
 #=============================================================================
 # Directory level rules for directory tools/fibSorter
@@ -114,7 +132,7 @@ tools/fibSorter/clean: tools/fibSorter/CMakeFiles/fibSorter.dir/clean
 lib/sortIntegers/CMakeFiles/sortIntegers.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib/sortIntegers/CMakeFiles/sortIntegers.dir/build.make lib/sortIntegers/CMakeFiles/sortIntegers.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/sortIntegers/CMakeFiles/sortIntegers.dir/build.make lib/sortIntegers/CMakeFiles/sortIntegers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/CMakeFiles --progress-num=3,4 "Built target sortIntegers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/CMakeFiles --progress-num=5,6 "Built target sortIntegers"
 .PHONY : lib/sortIntegers/CMakeFiles/sortIntegers.dir/all
 
 # Build rule for subdir invocation for target.
@@ -140,7 +158,7 @@ lib/sortIntegers/CMakeFiles/sortIntegers.dir/clean:
 tools/fibSorter/CMakeFiles/fibSorter.dir/all: lib/sortIntegers/CMakeFiles/sortIntegers.dir/all
 	$(MAKE) $(MAKESILENT) -f tools/fibSorter/CMakeFiles/fibSorter.dir/build.make tools/fibSorter/CMakeFiles/fibSorter.dir/depend
 	$(MAKE) $(MAKESILENT) -f tools/fibSorter/CMakeFiles/fibSorter.dir/build.make tools/fibSorter/CMakeFiles/fibSorter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/CMakeFiles --progress-num=1,2 "Built target fibSorter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/CMakeFiles --progress-num=3,4 "Built target fibSorter"
 .PHONY : tools/fibSorter/CMakeFiles/fibSorter.dir/all
 
 # Build rule for subdir invocation for target.
@@ -158,6 +176,32 @@ fibSorter: tools/fibSorter/CMakeFiles/fibSorter.dir/rule
 tools/fibSorter/CMakeFiles/fibSorter.dir/clean:
 	$(MAKE) $(MAKESILENT) -f tools/fibSorter/CMakeFiles/fibSorter.dir/build.make tools/fibSorter/CMakeFiles/fibSorter.dir/clean
 .PHONY : tools/fibSorter/CMakeFiles/fibSorter.dir/clean
+
+#=============================================================================
+# Target rules for target tools/cursesExample/CMakeFiles/cursesExample.dir
+
+# All Build rule for target.
+tools/cursesExample/CMakeFiles/cursesExample.dir/all:
+	$(MAKE) $(MAKESILENT) -f tools/cursesExample/CMakeFiles/cursesExample.dir/build.make tools/cursesExample/CMakeFiles/cursesExample.dir/depend
+	$(MAKE) $(MAKESILENT) -f tools/cursesExample/CMakeFiles/cursesExample.dir/build.make tools/cursesExample/CMakeFiles/cursesExample.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/CMakeFiles --progress-num=1,2 "Built target cursesExample"
+.PHONY : tools/cursesExample/CMakeFiles/cursesExample.dir/all
+
+# Build rule for subdir invocation for target.
+tools/cursesExample/CMakeFiles/cursesExample.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/cursesExample/CMakeFiles/cursesExample.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/CMakeFiles 0
+.PHONY : tools/cursesExample/CMakeFiles/cursesExample.dir/rule
+
+# Convenience name for target.
+cursesExample: tools/cursesExample/CMakeFiles/cursesExample.dir/rule
+.PHONY : cursesExample
+
+# clean rule for target.
+tools/cursesExample/CMakeFiles/cursesExample.dir/clean:
+	$(MAKE) $(MAKESILENT) -f tools/cursesExample/CMakeFiles/cursesExample.dir/build.make tools/cursesExample/CMakeFiles/cursesExample.dir/clean
+.PHONY : tools/cursesExample/CMakeFiles/cursesExample.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

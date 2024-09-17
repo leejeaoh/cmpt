@@ -16,3 +16,4 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}/lib")
 #adding sub dir for lib and exc
 add_subdirectory(lib/sortIntegers)
 add_subdirectory(tools/fibSorter)
+add_subdirectory(tools/cursesExample)
