@@ -9,3 +9,9 @@
 /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/tools/cursesExample/CMakeFiles/cursesExample.dir
 /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/tools/cursesExample/CMakeFiles/edit_cache.dir
 /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/tools/cursesExample/CMakeFiles/rebuild_cache.dir
+/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/tools/sosier/CMakeFiles/sosier.dir
+/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/tools/sosier/CMakeFiles/edit_cache.dir
+/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/tools/sosier/CMakeFiles/rebuild_cache.dir
+/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-build/CMakeFiles/sekrit-sos.dir
+/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-build/CMakeFiles/edit_cache.dir
+/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-build/CMakeFiles/rebuild_cache.dir

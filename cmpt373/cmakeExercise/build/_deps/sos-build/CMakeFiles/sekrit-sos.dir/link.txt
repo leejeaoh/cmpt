@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libsekrit-sos.a "CMakeFiles/sekrit-sos.dir/sekrit-sos.cpp.o"
+/usr/bin/ranlib ../../lib/libsekrit-sos.a

@@ -207,6 +207,31 @@ CMAKE_TAPI:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/tapi
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Don't create a package lock file in the binary path
+CPM_DONT_CREATE_PACKAGE_LOCK:BOOL=OFF
+
+//Don't update the module path to allow using find_package
+CPM_DONT_UPDATE_MODULE_PATH:BOOL=OFF
+
+//Always download dependencies from source
+CPM_DOWNLOAD_ALL:BOOL=OFF
+
+//Add all packages added through CPM.cmake to the package lock
+CPM_INCLUDE_ALL_IN_PACKAGE_LOCK:BOOL=OFF
+
+//Only use `find_package` to get dependencies
+CPM_LOCAL_PACKAGES_ONLY:BOOL=OFF
+
+//Directory to download CPM dependencies
+CPM_SOURCE_CACHE:PATH=OFF
+
+//Always try to use `find_package` to get dependencies
+CPM_USE_LOCAL_PACKAGES:BOOL=OFF
+
+//Use additional directory of package name in cache on the most
+// nested level.
+CPM_USE_NAMED_CACHE_DIRECTORIES:BOOL=OFF
+
 //Path to a library.
 CURSES_CURSES_LIBRARY:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/libcurses.tbd
 
@@ -218,6 +243,38 @@ CURSES_INCLUDE_PATH:PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
 
 //Path to a library.
 CURSES_NCURSES_LIBRARY:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/libncurses.tbd
+
+//Value Computed by CMake
+ExampleDependency_BINARY_DIR:STATIC=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-build
+
+//Value Computed by CMake
+ExampleDependency_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+ExampleDependency_SOURCE_DIR:STATIC=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-src
+
+//Directory under which to collect all populated content
+FETCHCONTENT_BASE_DIR:PATH=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps
+
+//Disables all attempts to download or update content and assumes
+// source dirs already exist
+FETCHCONTENT_FULLY_DISCONNECTED:BOOL=OFF
+
+//Enables QUIET option for all content population
+FETCHCONTENT_QUIET:BOOL=ON
+
+//When not empty, overrides where to find pre-populated content
+// for sos
+FETCHCONTENT_SOURCE_DIR_SOS:PATH=
+
+//Enables UPDATE_DISCONNECTED behavior for all content population
+FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
+
+//Enables UPDATE_DISCONNECTED behavior just for population of sos
+FETCHCONTENT_UPDATES_DISCONNECTED_SOS:BOOL=OFF
+
+//Git command line client
+GIT_EXECUTABLE:FILEPATH=/usr/bin/git
 
 //Arguments to supply to pkg-config
 PKG_CONFIG_ARGN:STRING=
@@ -236,6 +293,15 @@ sorting_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 sorting_SOURCE_DIR:STATIC=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise
+
+//Value Computed by CMake
+sosier_BINARY_DIR:STATIC=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/tools/sosier
+
+//Value Computed by CMake
+sosier_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+sosier_SOURCE_DIR:STATIC=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/tools/sosier
 
 
 ########################
@@ -332,7 +398,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -377,6 +443,18 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+CPM_DIRECTORY:INTERNAL=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/cmake
+//Don't download or configure dependencies (for testing)
+CPM_DRY_RUN:INTERNAL=OFF
+CPM_FILE:INTERNAL=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/cmake/CPM.cmake
+CPM_INDENT:INTERNAL=CPM:
+CPM_MODULE_PATH:INTERNAL=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/CPM_modules
+CPM_PACKAGES:INTERNAL=sos
+CPM_PACKAGE_LOCK_FILE:INTERNAL=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/cpm-package-lock.cmake
+CPM_PACKAGE_sos_BINARY_DIR:INTERNAL=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-build
+CPM_PACKAGE_sos_SOURCE_DIR:INTERNAL=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/_deps/sos-src
+CPM_PACKAGE_sos_VERSION:INTERNAL=0.2
+CPM_VERSION:INTERNAL=0.40.2
 //ADVANCED property for variable: CURSES_CURSES_LIBRARY
 CURSES_CURSES_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CURSES_FORM_LIBRARY
@@ -387,6 +465,8 @@ CURSES_INCLUDE_PATH-ADVANCED:INTERNAL=1
 CURSES_NCURSES_LIBRARY-ADVANCED:INTERNAL=1
 //Details about finding Curses
 FIND_PACKAGE_MESSAGE_DETAILS_Curses:INTERNAL=[/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/libcurses.tbd][/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include][v()]
+//ADVANCED property for variable: GIT_EXECUTABLE
+GIT_EXECUTABLE-ADVANCED:INTERNAL=1
 NCURSES_CFLAGS:INTERNAL=-D_DARWIN_C_SOURCE
 NCURSES_CFLAGS_I:INTERNAL=
 NCURSES_CFLAGS_OTHER:INTERNAL=-D_DARWIN_C_SOURCE

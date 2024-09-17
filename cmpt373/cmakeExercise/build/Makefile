@@ -155,6 +155,32 @@ cursesExample/fast:
 	$(MAKE) $(MAKESILENT) -f tools/cursesExample/CMakeFiles/cursesExample.dir/build.make tools/cursesExample/CMakeFiles/cursesExample.dir/build
 .PHONY : cursesExample/fast
 
+#=============================================================================
+# Target rules for targets named sosier
+
+# Build rule for target.
+sosier: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sosier
+.PHONY : sosier
+
+# fast build rule for target.
+sosier/fast:
+	$(MAKE) $(MAKESILENT) -f tools/sosier/CMakeFiles/sosier.dir/build.make tools/sosier/CMakeFiles/sosier.dir/build
+.PHONY : sosier/fast
+
+#=============================================================================
+# Target rules for targets named sekrit-sos
+
+# Build rule for target.
+sekrit-sos: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sekrit-sos
+.PHONY : sekrit-sos
+
+# fast build rule for target.
+sekrit-sos/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/sos-build/CMakeFiles/sekrit-sos.dir/build.make _deps/sos-build/CMakeFiles/sekrit-sos.dir/build
+.PHONY : sekrit-sos/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,7 +191,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... cursesExample"
 	@echo "... fibSorter"
+	@echo "... sekrit-sos"
 	@echo "... sortIntegers"
+	@echo "... sosier"
 .PHONY : help
 
 

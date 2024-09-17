@@ -11,9 +11,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.30.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.30.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.30.3/CMakeSystem.cmake"
+  "_deps/sos-src/CMakeLists.txt"
+  "/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/cmake/CPM.cmake"
   "/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/lib/sortIntegers/CMakeLists.txt"
   "/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/tools/cursesExample/CMakeLists.txt"
   "/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/tools/fibSorter/CMakeLists.txt"
+  "/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/tools/sosier/CMakeLists.txt"
   "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeCCompiler.cmake.in"
   "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeCCompilerABI.c"
   "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeCInformation.cmake"
@@ -102,7 +105,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake"
   "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
   "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
+  "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/ExternalProject/shared_internal_commands.cmake"
+  "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FetchContent.cmake"
+  "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FetchContent/CMakeLists.cmake.in"
   "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindCurses.cmake"
+  "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindGit.cmake"
   "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
   "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindPackageMessage.cmake"
   "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindPkgConfig.cmake"
@@ -136,6 +143,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "lib/sortIntegers/CMakeFiles/CMakeDirectoryInformation.cmake"
   "tools/fibSorter/CMakeFiles/CMakeDirectoryInformation.cmake"
   "tools/cursesExample/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "_deps/sos-subbuild/CMakeLists.txt"
+  "tools/sosier/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "_deps/sos-build/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -143,4 +153,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "lib/sortIntegers/CMakeFiles/sortIntegers.dir/DependInfo.cmake"
   "tools/fibSorter/CMakeFiles/fibSorter.dir/DependInfo.cmake"
   "tools/cursesExample/CMakeFiles/cursesExample.dir/DependInfo.cmake"
+  "tools/sosier/CMakeFiles/sosier.dir/DependInfo.cmake"
+  "_deps/sos-build/CMakeFiles/sekrit-sos.dir/DependInfo.cmake"
   )
