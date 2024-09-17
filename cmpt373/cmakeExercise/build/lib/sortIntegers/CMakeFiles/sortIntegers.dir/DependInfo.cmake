@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/jeaohlee/Desktop/CMPT373/cmakeExercise/SortIntegers.cpp" "CMakeFiles/sorting.dir/SortIntegers.cpp.o" "gcc" "CMakeFiles/sorting.dir/SortIntegers.cpp.o.d"
-  "/Users/jeaohlee/Desktop/CMPT373/cmakeExercise/main.cpp" "CMakeFiles/sorting.dir/main.cpp.o" "gcc" "CMakeFiles/sorting.dir/main.cpp.o.d"
+  "/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/lib/sortIntegers/SortIntegers.cpp" "lib/sortIntegers/CMakeFiles/sortIntegers.dir/SortIntegers.cpp.o" "gcc" "lib/sortIntegers/CMakeFiles/sortIntegers.dir/SortIntegers.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

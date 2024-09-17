@@ -54,51 +54,110 @@ RM = /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jeaohlee/Desktop/CMPT373/cmakeExercise
+CMAKE_SOURCE_DIR = /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jeaohlee/Desktop/CMPT373/cmakeExercise/build
+CMAKE_BINARY_DIR = /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/sorting.dir/all
+all: lib/sortIntegers/all
+all: tools/fibSorter/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: lib/sortIntegers/preinstall
+preinstall: tools/fibSorter/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/sorting.dir/clean
+clean: lib/sortIntegers/clean
+clean: tools/fibSorter/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/sorting.dir
+# Directory level rules for directory lib/sortIntegers
+
+# Recursive "all" directory target.
+lib/sortIntegers/all: lib/sortIntegers/CMakeFiles/sortIntegers.dir/all
+.PHONY : lib/sortIntegers/all
+
+# Recursive "preinstall" directory target.
+lib/sortIntegers/preinstall:
+.PHONY : lib/sortIntegers/preinstall
+
+# Recursive "clean" directory target.
+lib/sortIntegers/clean: lib/sortIntegers/CMakeFiles/sortIntegers.dir/clean
+.PHONY : lib/sortIntegers/clean
+
+#=============================================================================
+# Directory level rules for directory tools/fibSorter
+
+# Recursive "all" directory target.
+tools/fibSorter/all: tools/fibSorter/CMakeFiles/fibSorter.dir/all
+.PHONY : tools/fibSorter/all
+
+# Recursive "preinstall" directory target.
+tools/fibSorter/preinstall:
+.PHONY : tools/fibSorter/preinstall
+
+# Recursive "clean" directory target.
+tools/fibSorter/clean: tools/fibSorter/CMakeFiles/fibSorter.dir/clean
+.PHONY : tools/fibSorter/clean
+
+#=============================================================================
+# Target rules for target lib/sortIntegers/CMakeFiles/sortIntegers.dir
 
 # All Build rule for target.
-CMakeFiles/sorting.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sorting.dir/build.make CMakeFiles/sorting.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sorting.dir/build.make CMakeFiles/sorting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jeaohlee/Desktop/CMPT373/cmakeExercise/build/CMakeFiles --progress-num=1,2,3 "Built target sorting"
-.PHONY : CMakeFiles/sorting.dir/all
+lib/sortIntegers/CMakeFiles/sortIntegers.dir/all:
+	$(MAKE) $(MAKESILENT) -f lib/sortIntegers/CMakeFiles/sortIntegers.dir/build.make lib/sortIntegers/CMakeFiles/sortIntegers.dir/depend
+	$(MAKE) $(MAKESILENT) -f lib/sortIntegers/CMakeFiles/sortIntegers.dir/build.make lib/sortIntegers/CMakeFiles/sortIntegers.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/CMakeFiles --progress-num=3,4 "Built target sortIntegers"
+.PHONY : lib/sortIntegers/CMakeFiles/sortIntegers.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/sorting.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jeaohlee/Desktop/CMPT373/cmakeExercise/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sorting.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jeaohlee/Desktop/CMPT373/cmakeExercise/build/CMakeFiles 0
-.PHONY : CMakeFiles/sorting.dir/rule
+lib/sortIntegers/CMakeFiles/sortIntegers.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sortIntegers/CMakeFiles/sortIntegers.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/CMakeFiles 0
+.PHONY : lib/sortIntegers/CMakeFiles/sortIntegers.dir/rule
 
 # Convenience name for target.
-sorting: CMakeFiles/sorting.dir/rule
-.PHONY : sorting
+sortIntegers: lib/sortIntegers/CMakeFiles/sortIntegers.dir/rule
+.PHONY : sortIntegers
 
 # clean rule for target.
-CMakeFiles/sorting.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sorting.dir/build.make CMakeFiles/sorting.dir/clean
-.PHONY : CMakeFiles/sorting.dir/clean
+lib/sortIntegers/CMakeFiles/sortIntegers.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lib/sortIntegers/CMakeFiles/sortIntegers.dir/build.make lib/sortIntegers/CMakeFiles/sortIntegers.dir/clean
+.PHONY : lib/sortIntegers/CMakeFiles/sortIntegers.dir/clean
+
+#=============================================================================
+# Target rules for target tools/fibSorter/CMakeFiles/fibSorter.dir
+
+# All Build rule for target.
+tools/fibSorter/CMakeFiles/fibSorter.dir/all: lib/sortIntegers/CMakeFiles/sortIntegers.dir/all
+	$(MAKE) $(MAKESILENT) -f tools/fibSorter/CMakeFiles/fibSorter.dir/build.make tools/fibSorter/CMakeFiles/fibSorter.dir/depend
+	$(MAKE) $(MAKESILENT) -f tools/fibSorter/CMakeFiles/fibSorter.dir/build.make tools/fibSorter/CMakeFiles/fibSorter.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/CMakeFiles --progress-num=1,2 "Built target fibSorter"
+.PHONY : tools/fibSorter/CMakeFiles/fibSorter.dir/all
+
+# Build rule for subdir invocation for target.
+tools/fibSorter/CMakeFiles/fibSorter.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/fibSorter/CMakeFiles/fibSorter.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/CMakeFiles 0
+.PHONY : tools/fibSorter/CMakeFiles/fibSorter.dir/rule
+
+# Convenience name for target.
+fibSorter: tools/fibSorter/CMakeFiles/fibSorter.dir/rule
+.PHONY : fibSorter
+
+# clean rule for target.
+tools/fibSorter/CMakeFiles/fibSorter.dir/clean:
+	$(MAKE) $(MAKESILENT) -f tools/fibSorter/CMakeFiles/fibSorter.dir/build.make tools/fibSorter/CMakeFiles/fibSorter.dir/clean
+.PHONY : tools/fibSorter/CMakeFiles/fibSorter.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

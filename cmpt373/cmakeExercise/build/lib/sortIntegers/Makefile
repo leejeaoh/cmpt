@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/CMakeFiles /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/CMakeFiles /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/lib/sortIntegers//CMakeFiles/progress.marks
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sortIntegers/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sortIntegers/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,44 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sortIntegers/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sortIntegers/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named sortIntegers
+# Convenience name for target.
+lib/sortIntegers/CMakeFiles/sortIntegers.dir/rule:
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sortIntegers/CMakeFiles/sortIntegers.dir/rule
+.PHONY : lib/sortIntegers/CMakeFiles/sortIntegers.dir/rule
 
-# Build rule for target.
-sortIntegers: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sortIntegers
+# Convenience name for target.
+sortIntegers: lib/sortIntegers/CMakeFiles/sortIntegers.dir/rule
 .PHONY : sortIntegers
 
 # fast build rule for target.
 sortIntegers/fast:
-	$(MAKE) $(MAKESILENT) -f lib/sortIntegers/CMakeFiles/sortIntegers.dir/build.make lib/sortIntegers/CMakeFiles/sortIntegers.dir/build
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build && $(MAKE) $(MAKESILENT) -f lib/sortIntegers/CMakeFiles/sortIntegers.dir/build.make lib/sortIntegers/CMakeFiles/sortIntegers.dir/build
 .PHONY : sortIntegers/fast
 
-#=============================================================================
-# Target rules for targets named fibSorter
+SortIntegers.o: SortIntegers.cpp.o
+.PHONY : SortIntegers.o
 
-# Build rule for target.
-fibSorter: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fibSorter
-.PHONY : fibSorter
+# target to build an object file
+SortIntegers.cpp.o:
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build && $(MAKE) $(MAKESILENT) -f lib/sortIntegers/CMakeFiles/sortIntegers.dir/build.make lib/sortIntegers/CMakeFiles/sortIntegers.dir/SortIntegers.cpp.o
+.PHONY : SortIntegers.cpp.o
 
-# fast build rule for target.
-fibSorter/fast:
-	$(MAKE) $(MAKESILENT) -f tools/fibSorter/CMakeFiles/fibSorter.dir/build.make tools/fibSorter/CMakeFiles/fibSorter.dir/build
-.PHONY : fibSorter/fast
+SortIntegers.i: SortIntegers.cpp.i
+.PHONY : SortIntegers.i
+
+# target to preprocess a source file
+SortIntegers.cpp.i:
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build && $(MAKE) $(MAKESILENT) -f lib/sortIntegers/CMakeFiles/sortIntegers.dir/build.make lib/sortIntegers/CMakeFiles/sortIntegers.dir/SortIntegers.cpp.i
+.PHONY : SortIntegers.cpp.i
+
+SortIntegers.s: SortIntegers.cpp.s
+.PHONY : SortIntegers.s
+
+# target to generate assembly for a file
+SortIntegers.cpp.s:
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build && $(MAKE) $(MAKESILENT) -f lib/sortIntegers/CMakeFiles/sortIntegers.dir/build.make lib/sortIntegers/CMakeFiles/sortIntegers.dir/SortIntegers.cpp.s
+.PHONY : SortIntegers.cpp.s
 
 # Help Target
 help:
@@ -150,8 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... fibSorter"
 	@echo "... sortIntegers"
+	@echo "... SortIntegers.o"
+	@echo "... SortIntegers.i"
+	@echo "... SortIntegers.s"
 .PHONY : help
 
 
@@ -163,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

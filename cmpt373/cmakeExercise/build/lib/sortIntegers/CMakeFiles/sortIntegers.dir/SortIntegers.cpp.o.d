@@ -1,5 +1,5 @@
-CMakeFiles/sorting.dir/SortIntegers.cpp.o: \
-  /Users/jeaohlee/Desktop/CMPT373/cmakeExercise/SortIntegers.cpp \
+lib/sortIntegers/CMakeFiles/sortIntegers.dir/SortIntegers.cpp.o: \
+  /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/lib/sortIntegers/SortIntegers.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/algorithm \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config \

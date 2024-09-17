@@ -1,3 +1,8 @@
-/Users/jeaohlee/Desktop/CMPT373/cmakeExercise/build/CMakeFiles/sorting.dir
-/Users/jeaohlee/Desktop/CMPT373/cmakeExercise/build/CMakeFiles/edit_cache.dir
-/Users/jeaohlee/Desktop/CMPT373/cmakeExercise/build/CMakeFiles/rebuild_cache.dir
+/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/CMakeFiles/edit_cache.dir
+/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/CMakeFiles/rebuild_cache.dir
+/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/lib/sortIntegers/CMakeFiles/sortIntegers.dir
+/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/lib/sortIntegers/CMakeFiles/edit_cache.dir
+/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/lib/sortIntegers/CMakeFiles/rebuild_cache.dir
+/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/tools/fibSorter/CMakeFiles/fibSorter.dir
+/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/tools/fibSorter/CMakeFiles/edit_cache.dir
+/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/tools/fibSorter/CMakeFiles/rebuild_cache.dir

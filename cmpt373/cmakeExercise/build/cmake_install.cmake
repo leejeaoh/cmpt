@@ -1,4 +1,4 @@
-# Install script for directory: /Users/jeaohlee/Desktop/CMPT373/cmakeExercise
+# Install script for directory: /Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,6 +37,16 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/lib/sortIntegers/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/tools/fibSorter/cmake_install.cmake")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_COMPONENT MATCHES "^[a-zA-Z0-9_.+-]+$")
     set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
@@ -52,6 +62,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/Users/jeaohlee/Desktop/CMPT373/cmakeExercise/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/jeaohlee/Desktop/cmpt/cmpt373/cmakeExercise/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
